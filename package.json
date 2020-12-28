@@ -1,0 +1,12 @@
+{
+  "name": "giveaways",
+  "version": "1.0.0",
+  "description": "Easy-to-use giveway bot for the Brooklyn Nine-Nine Discord",
+  "main": "main.py",
+  "scripts": {
+    "start": "main.py",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
