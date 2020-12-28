@@ -16,7 +16,7 @@ class Prize(str):
         super().__init__()
         self.prize = prize
     
-    async def return_time(self, prize):
+    async def return_prize(self, prize):
         if not isinstance(prize, str):
             raise Exception("Prize must be a str")
         if len(prize) > 1 or len(prize) < 100:
@@ -29,7 +29,7 @@ class Winners(int):
         super().__init__()
         self.time = winners
     
-    async def return_time(self, winners):
+    async def return_winners(self, winners):
         if not isinstance(winners, int):
             raise Exception("Winners must be an int")
         if winners > 1 or winners < 15:
