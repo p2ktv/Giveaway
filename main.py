@@ -8,7 +8,7 @@ from Config.config import cogs, to_remove_commands, TOKEN
 
 client: Bot = commands.Bot(command_prefix=PREFIX) #actual client
 
-discord.Intents().default() # activation intents
+discord.Intents().default() #activate intents
 
 
 @client.event
