@@ -6,7 +6,7 @@ from Config.start import *
 from Config.config import cogs, to_remove_commands, TOKEN
 
 
-client: Bot = commands.Bot(command_prefix="%")
+client: Bot = commands.Bot(command_prefix=PREFIX)
 
 discord.Intents().default()
 
