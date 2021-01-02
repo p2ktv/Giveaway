@@ -12,7 +12,7 @@ from Database.db_utils import create_giveaway, delete_giveaway, get_all_giveaway
 
 from Schemas.schemas import giveaway
 
-from Utils.embed_builder import build_giveaway_embed, edit_giveaway_embed_normal, edit_giveaway_embed_fail, edit_giveaway_embed_win
+from Utils.embed_builder import *
 from Utils.giveaway_utils import draw_winner
 
 
