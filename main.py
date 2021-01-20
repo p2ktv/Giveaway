@@ -6,9 +6,9 @@ from Config.start import * #wildcard import entire config file
 from Config.config import cogs, to_remove_commands, TOKEN
 
 
-client: Bot = commands.Bot(command_prefix=PREFIX) #actual client
+intents = discord.Intents().default() #define intens
 
-discord.Intents().default() #activate intents
+client: Bot = commands.Bot(command_prefix=PREFIX, intents=intents) #actual client
 
 
 @client.event
