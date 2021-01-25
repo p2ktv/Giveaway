@@ -7,8 +7,4 @@ async def draw_winner(giveaway_id, winners):
     if "x" in all_users:
         all_users.remove("x")
     choosen = random.sample(all_users, winners)
-    final = []
-    for winner in choosen:
-        final.append("<@!{}>".format(winner))
-    return final
-    
+    return ["<@!%s>" % (winner) for winner in choosen]
